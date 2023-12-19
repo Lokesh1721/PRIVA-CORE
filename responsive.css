@@ -1,0 +1,92 @@
+@media screen and (max-width:1199px){
+    .container{
+        width: 950px;
+    }
+}
+@media screen and (max-width:979px){
+    .container{
+        width: 750px;
+    }
+    .logo a img{
+        width: 220px;
+        height: 58px;
+    }
+    .social-icon .fa{
+        margin: 0;
+        padding: 0;
+    }
+    .content_right_eight img{
+        width: 50px;
+    }
+}
+@media screen and (max-width:767px){
+    .container{
+        width: 96%;
+        margin: 0;
+        padding: 0;
+    }
+    nav ul li{
+        display: block;
+        width: 100%;
+    }
+    .social-icons, .content_left_seventh_inner, .content_right_first, .social-icon, footer .container{
+        text-align: center;
+    }
+    .content_left, .content_right{
+        width: 100%;
+        float: none;
+    }
+    .content_left_fourth_left, .content_left_fourth_right, .content_left_fifth_left, .content_left_fifth_right, .content_left_seventh_inner, .flex-container, footer .container{
+        float: none;
+        width: 100%;
+        display: block;
+    }
+    aside, article{
+        display: block;
+        float: none;
+        width: 100%;
+    }
+    .content_right_second h4, .content_right_third h4,.content_right_fourth h4,
+    .content_right_fifth h4, .content_right_sixth h4, .content_right_seventh h4,
+    .content_right_eight h4,.content_left_fifth_left, .content_left_fifth_right,
+    .footer_top p,.footer_top h4, .footer_top form{
+        text-align: center;
+    }
+    header .container{
+        display: block;
+        flex-direction: column;
+        text-align: center;
+    }
+    .content_right_eight img{
+        width: 60px;
+        text-align: center;
+    }
+    .social_data span{
+        margin-right: 10px;
+    }
+    nav ul li{
+        margin: 0;
+        margin-bottom: 8px;
+    }
+    nav ul li a{
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    nav ul li a.active::after{
+        left: 0;
+        right: 0;
+        top: 206px;
+    }
+    .social-icons{
+        margin: 10px 0;
+    }
+    .share{
+        text-align: center;
+    }
+    .footer_top h4{
+        padding: 0;
+    }
+    .footer_top img{
+        padding: 0px 40px 40px 30px;
+    }
+}
